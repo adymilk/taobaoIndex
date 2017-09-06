@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="http://libs.baidu.com/jquery/1.6.0/jquery.min.js"></script>
+
+    <script src="./js/jquery.SuperSlide.2.1.1.js"></script>
+<style media="screen">
+  .hd ul li {
+    list-style: none;
+    width: 50px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    float: left;
+  }
+  .clear{
+    clear: both;
+  }
+  .hd ul{
+    background-color: black;
+  }
+</style>
+  </head>
+  <body>
+    <div class="slideTxtBox">
+      <div class="hd">
+        <ul>
+          <li>语文</li>
+          <li>数学</li>
+          <div class="clear">
+
+          </div>
+        </ul>
+      </div>
+      <div class="bd">
+        <ul>
+          <li>语文1</li>
+        </ul>
+        <ul>
+          <li>数学1</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+
+  </body>
+</html>
